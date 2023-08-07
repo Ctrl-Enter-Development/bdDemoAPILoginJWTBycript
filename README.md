@@ -1,4 +1,4 @@
-# apiSecretariaDesenvolvimentoRural#
+# Demo API Login JWT/Bycript#
 
 ## Requisitos
 
@@ -7,11 +7,11 @@
 
 ## Buildar conteiner:
 
-Executar ` docker build -t bdsecretariadesenvolvimentorural .` para construir a imagem docker.
+Executar ` docker build -t bdDemoAPILoginJWTBycript .` para construir a imagem docker.
 
 ## Subir o conteiner:
 
-Executar ` docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=senha_banco_dados -e MYSQL_DATABASE=secretariaDesenvolvimentoRural bdsecretariadesenvolvimentorural;.` para subir a imagem docker.
+Executar ` docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=senha_banco_dados -e MYSQL_DATABASE=demoAPILoginJWTBycript bdDemoAPILoginJWTBycript;.` para subir a imagem docker.
 
 O banco dados estará acessível em http://localhost:3306
 

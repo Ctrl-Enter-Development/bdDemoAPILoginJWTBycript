@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.33, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: secretariaDesenvolvimentoRural
+-- Host: 127.0.0.1    Database: demoAPILoginJWTBycript
 -- ------------------------------------------------------
 -- Server version	8.0.33-0ubuntu0.22.04.2
 
@@ -17,7 +17,7 @@
 
 --
 -- Table structure for table `users`
-USE secretariaDesenvolvimentoRural;
+USE demoAPILoginJWTBycript;
 
 DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;

@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Variáveis
-DB_INSTANCE_IDENTIFIER="bdsecretariadesenvolvimentorural"
-DB_NAME="secretariaDesenvolvimentoRural"
+DB_INSTANCE_IDENTIFIER="bdDemoAPILoginJWTBycript"
+DB_NAME="demoAPILoginJWTBycript"
 DB_USERNAME="developer"
-DB_PASSWORD="P@ssw0rd2023"
+DB_PASSWORD="Password"
 DB_ENGINE="mysql"
 DB_ENGINE_VERSION="8.0"
 DB_INSTANCE_TYPE="db.t3.micro"

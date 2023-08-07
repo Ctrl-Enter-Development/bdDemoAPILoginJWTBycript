@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Configure AWS credentials
-        run: aws configure set aws_access_key_id AKIAYIKDPCSGP7O3TKN7 && aws configure set aws_secret_access_key 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 && aws configure set region us-east-1
+        run: aws configure set aws_access_key_id "  " t3TKN7 && aws configure set aws_secret_access_key "  " && aws configure set region us-east-1
 
       - name: Run deployment script
         run: bash deploy.sh
